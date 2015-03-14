@@ -1,13 +1,8 @@
 import javafx.application.Application;
-import javafx.event.Event;
-import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-
-import java.awt.event.ActionEvent;
-import java.util.EventListener;
 
 /**
  * Created by lukasz bialkowski on 2015-03-07.
@@ -40,7 +35,11 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) {
-       launch(args);
+
+        launch(args);
+        String sCiagZnakow = new String("whis is somethis".toUpperCase());
+        System.out.println(sCiagZnakow);
+
     }
 
 }
